@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  /*display: flexbox;*/
+  align-items: center;
+  justify-content: center;
+  background-color: #a9d7e9;
+}
+
+#container {
+  background-color: #f3f3f3;
+  max-width: 620px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #6ba2ce;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  height: 40px;
+  width: 80px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.my-form .form-title,
+.my-form .form-heading {
+  text-align: center;
+}
+
+.my-form .form-group {
+  padding-bottom: 20px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"],
+.my-form input[type="number"] {
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+  resize: none;
+}
+.my-form input[type="radio"],
+.my-form input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 0.6rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}

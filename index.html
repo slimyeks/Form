@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <form class="my-form">
+        <div class="form-heading">
+            <h1>Good Vibes Form</h1>
+        </div> <!--.form-heading-->
+        <div id="container">
+            <div class="form-title">
+                <h3>Tell us something postive that happened to you today.</h3>
+            </div><!--.form-title-->
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <div class="form-group">
+                <label>On a scale of 1-10, how good was it?</label>
+                <input type="number" name="number" min="1" max="10">
+            </div>
+
+            <div class="form-group">
+                <label>Where did it happen?</label> 
+                <input type="radio" names="ans" value="Morning">Morning 
+                <input type="radio" names="ans" value="Afternoon">Afternoon 
+                <input type="radio" names="ans" value="Evening">Evening    
+            </div>
+
+            <div class="form-group">
+                <label>What emotions did you experience?(select all that apply)</label>
+                <input type="checkbox" name="ans" value="Excited">Excited
+                <input type="checkbox" name="ans" value="Humbled">Humbles
+                <input type="checkbox" name="ans" value="Elated">Elated
+                <input type="checkbox" name="ans" value="Loved">Loved
+                <input type="checkbox" name="ans" value="Enthusiastic">Enthusiastic
+            </div>
+
+            <div class="form-group">
+                <label>Please describe your positive experience?</label>
+                <textarea name="message"></textarea>
+            </div>
+
+            <div class="form-group">
+                <input class="button" type="submit" value="Submit" name="">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
